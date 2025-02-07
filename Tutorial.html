@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://files.oaiusercontent.com/file-6SZxbje7asrc66ePr2f9ZN?se=2025-02-07T15%3A34%3A18Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D35e76327-c559-4594-ba51-78dd8861cfb1.webp&sig=EyWclmlDLv35Sw7k33fMOFaSos15qHwsB71pFqHMlmM%3D" type="image/x-icon">
+    <title>Tutorial - Ghid Pc Check</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        h1, h2 {
+            color: #00bcd4;
+        }
+
+        ul {
+            line-height: 1.8;
+            list-style-type: none;
+        }
+
+        ul li::before {
+            content: '\2022';
+            color: #00bcd4;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #00bcd4;
+            color: #ffffff;
+            margin-top: 75px;
+            border-radius: 0 0 10px 10px;
+        }
+
+
+        .video-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        iframe {
+            width: 80%;
+            height: 400px;
+            border-radius: 10px;
+        }
+
+
+        .light-theme {
+            background-color: #ffffff;
+            color: #121212;
+        }
+
+        .light-theme .container {
+            background: #f4f4f4;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .light-theme .footer {
+            background: #00bcd4;
+            color: #ffffff;
+        }
+
+        .theme-toggle-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px;
+            background-color: #00bcd4;
+            color: #121212;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+
+    <button class="theme-toggle-button" onclick="toggleTheme()">Toggle theme</button>
+    
+    <div class="container">
+        <h1><u>Tutorial</u></h1>
+        <ul>
+            <li>Tot ceea ce a fost prezentat în acest site, este prezentat printr-un <b>tutorial</b> mai jos, pentru mai multe clarificări.</li>
+        </ul>
+        
+        <div class="video-container">
+            <h2><b><u>Tutorial</u></b></h2>
+            <iframe src="https://www.youtube.com/embed/iJoKSSDYO4o" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <h2><u>ECHIPA PREMIUM</u></h2>
+        <ul>
+            <li>Dacă tot mai aveți nedumeriri pe anumite aspecte, nu ezitați să ne contactați, echipa <b>PREMIUM</b> vă stă la dispoziție.</li>
+        </ul>
+    </div>
+    
+    <div class="footer">
+        &copy; <b>PREMIUM.LLG.RO</b>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('light-theme');
+        }
+    </script>
+</body>
+</html>
